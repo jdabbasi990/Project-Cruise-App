@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19312AEC2AEECEF6006F0F2C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19312AEB2AEECEF6006F0F2C /* AuthenticationViewController.swift */; };
+		19312AEE2AEEE3BE006F0F2C /* SearchCruiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19312AED2AEEE3BE006F0F2C /* SearchCruiseViewController.swift */; };
+		19312AF02AEEE43A006F0F2C /* SearchCruiseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19312AEF2AEEE43A006F0F2C /* SearchCruiseCell.swift */; };
+		19312AF22AEEF32F006F0F2C /* Cruise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19312AF12AEEF32F006F0F2C /* Cruise.swift */; };
 		193F9B3A2AE9FA1500149E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F9B392AE9FA1500149E12 /* AppDelegate.swift */; };
 		193F9B3C2AE9FA1500149E12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F9B3B2AE9FA1500149E12 /* SceneDelegate.swift */; };
-		193F9B3E2AE9FA1500149E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F9B3D2AE9FA1500149E12 /* ViewController.swift */; };
+		193F9B3E2AE9FA1500149E12 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F9B3D2AE9FA1500149E12 /* WelcomeViewController.swift */; };
 		193F9B412AE9FA1500149E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193F9B3F2AE9FA1500149E12 /* Main.storyboard */; };
 		193F9B432AE9FA1800149E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193F9B422AE9FA1800149E12 /* Assets.xcassets */; };
 		193F9B462AE9FA1800149E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193F9B442AE9FA1800149E12 /* LaunchScreen.storyboard */; };
+		197C62932AF00F2500367CAE /* CruiseViewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C62922AF00F2500367CAE /* CruiseViewDetails.swift */; };
+		19D8195B2AEDDF180027AF0B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8195A2AEDDF180027AF0B /* CustomButton.swift */; };
+		19D8195D2AEDDF8B0027AF0B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8195C2AEDDF8B0027AF0B /* CustomTextField.swift */; };
+		19D8195F2AEDDFFB0027AF0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8195E2AEDDFFB0027AF0B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19312AEB2AEECEF6006F0F2C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		19312AED2AEEE3BE006F0F2C /* SearchCruiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCruiseViewController.swift; sourceTree = "<group>"; };
+		19312AEF2AEEE43A006F0F2C /* SearchCruiseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCruiseCell.swift; sourceTree = "<group>"; };
+		19312AF12AEEF32F006F0F2C /* Cruise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cruise.swift; sourceTree = "<group>"; };
 		193F9B362AE9FA1500149E12 /* Project-Cruise-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-Cruise-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		193F9B392AE9FA1500149E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		193F9B3B2AE9FA1500149E12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		193F9B3D2AE9FA1500149E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		193F9B3D2AE9FA1500149E12 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		193F9B402AE9FA1500149E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		193F9B422AE9FA1800149E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		193F9B452AE9FA1800149E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		193F9B472AE9FA1800149E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197C62922AF00F2500367CAE /* CruiseViewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruiseViewDetails.swift; sourceTree = "<group>"; };
+		19D8195A2AEDDF180027AF0B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		19D8195C2AEDDF8B0027AF0B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		19D8195E2AEDDFFB0027AF0B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		193F9B382AE9FA1500149E12 /* Project-Cruise-App */ = {
 			isa = PBXGroup;
 			children = (
+				19D819592AEDDDE30027AF0B /* CustomViews */,
 				193F9B392AE9FA1500149E12 /* AppDelegate.swift */,
+				19D8195E2AEDDFFB0027AF0B /* Constants.swift */,
 				193F9B3B2AE9FA1500149E12 /* SceneDelegate.swift */,
-				193F9B3D2AE9FA1500149E12 /* ViewController.swift */,
+				19312AED2AEEE3BE006F0F2C /* SearchCruiseViewController.swift */,
+				19312AEF2AEEE43A006F0F2C /* SearchCruiseCell.swift */,
+				197C62922AF00F2500367CAE /* CruiseViewDetails.swift */,
+				19312AF12AEEF32F006F0F2C /* Cruise.swift */,
+				19312AEB2AEECEF6006F0F2C /* AuthenticationViewController.swift */,
+				193F9B3D2AE9FA1500149E12 /* WelcomeViewController.swift */,
 				193F9B3F2AE9FA1500149E12 /* Main.storyboard */,
 				193F9B422AE9FA1800149E12 /* Assets.xcassets */,
 				193F9B442AE9FA1800149E12 /* LaunchScreen.storyboard */,
 				193F9B472AE9FA1800149E12 /* Info.plist */,
 			);
 			path = "Project-Cruise-App";
+			sourceTree = "<group>";
+		};
+		19D819592AEDDDE30027AF0B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				19D8195A2AEDDF180027AF0B /* CustomButton.swift */,
+				19D8195C2AEDDF8B0027AF0B /* CustomTextField.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				193F9B3E2AE9FA1500149E12 /* ViewController.swift in Sources */,
+				19312AF22AEEF32F006F0F2C /* Cruise.swift in Sources */,
+				197C62932AF00F2500367CAE /* CruiseViewDetails.swift in Sources */,
+				19D8195B2AEDDF180027AF0B /* CustomButton.swift in Sources */,
+				193F9B3E2AE9FA1500149E12 /* WelcomeViewController.swift in Sources */,
 				193F9B3A2AE9FA1500149E12 /* AppDelegate.swift in Sources */,
+				19312AEC2AEECEF6006F0F2C /* AuthenticationViewController.swift in Sources */,
 				193F9B3C2AE9FA1500149E12 /* SceneDelegate.swift in Sources */,
+				19312AF02AEEE43A006F0F2C /* SearchCruiseCell.swift in Sources */,
+				19D8195D2AEDDF8B0027AF0B /* CustomTextField.swift in Sources */,
+				19312AEE2AEEE3BE006F0F2C /* SearchCruiseViewController.swift in Sources */,
+				19D8195F2AEDDFFB0027AF0B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
