@@ -13,6 +13,7 @@ import UIKit
 class AuthenticationViewController: UIViewController {
     let backgroundImageView = UIImageView()
 
+    @IBOutlet weak var topLabel: UILabel!
     
     @IBOutlet weak var emailTextField: CustomTextField!
     @IBOutlet weak var passwordTextField: CustomTextField!
@@ -47,6 +48,7 @@ class AuthenticationViewController: UIViewController {
     @IBAction func onDisplayResteration(_ sender: Any) {
         fullNameTextField.isHidden = !fullNameTextField.isHidden
         confirmPassword.isHidden = !confirmPassword.isHidden
+        topLabel.text = "Register"
     }
     
 
