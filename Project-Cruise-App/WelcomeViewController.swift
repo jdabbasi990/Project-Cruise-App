@@ -25,7 +25,7 @@ class WelcomeViewController: UIViewController {
         backgroundImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         
-        backgroundImageView.image = UIImage(named: "ship_background3")
+        backgroundImageView.image = UIImage(named: "secondary_background2")
         view.sendSubviewToBack(backgroundImageView)
     }
 }
